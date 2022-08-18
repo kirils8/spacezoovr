@@ -14,31 +14,39 @@
 <meta name="theme-color" content="#fafafa">
 <style>
     @font-face {
-        font-family: "FredokaOne Regular", sans-serif;
-        font-weight: normal;
+        font-family: 'FredokaOne Regular';
+        font-weight: 400;
         font-style: normal;
         font-display: swap;
         src: local(''),
-            url("fonts/FredokaOne-Regular.woff2") format("woff2"),
-            url("fonts/FredokaOne-Regular.woff") format("woff");
+      url('fonts/FredokaOne-Regular.woff') format('woff'),
+      url('fonts/FredokaOne-Regular.woff2') format('woff2');
     }
 </style>
 </head>
 
 <body>
     <div class="page-container">
-        <!-- Header -->
-        <section class="zoo-header-cont">
-            <div class="zoo-logo-wrapper">
-                <img src="img/spacezoovr-logotype.png" alt="Space Zoo VR Logotype" />
-            </div>
-            <h1>Hilarious VR Experience</h1>
-        </section>
-        <main>
-            <div class="video-trailer-cont">
+        <!-- BG overlay -->
+        <div class="zoo-bg-overlay"></div>
+
+        <div class="max-width-container pos-relative">
+            <div class="max-width-wrapper mgn-lr-64px">
+                <!-- Header -->
+                <section class="zoo-header-cont">
+                    <div class="zoo-logo-wrapper">
+                        <img src="img/spacezoovr-logotype.png" alt="Space Zoo VR Logotype" />
+                    </div>
+                    <h1 class="fredoka-font-28px">Hilarious VR Experience</h1>
+                </section>
+                <main>
+                    <div class="video-trailer-cont">
+
+                    </div>
+                </main>
 
             </div>
-        </main>
+        </div>
     </div>
 </body>
 </html>
