@@ -12,7 +12,7 @@ html {
 }
 
 .max-width-container {
-    max-width: 1440px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -21,10 +21,23 @@ html {
 .fredoka-font-28px {
     font-size: 28px;
     line-height: 34px;
+    letter-spacing: 1.5px;
+}
+
+.fredoka-font-18px {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.fredoka-font-24px {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
 }
 
 .max-width-wrapper {
-    max-width: 1312px;
+    max-width: 640px;
 }
 
 .mgn-lr-64px {
@@ -36,12 +49,18 @@ img {
     max-width: 100%;
 }
 
+.pos-relative {
+    position: relative;
+    z-index: 1;
+}
+
 
 /* PAGE */
 .page-container {
     display: flex;
     align-items: center;
-    min-height: 100vh;   
+    min-height: 100vh; 
+    padding: 48px 0;  
 }
 
 .zoo-bg-overlay {
@@ -61,15 +80,33 @@ img {
     margin: 0 auto;
 }
 
+.zoo-header-cont h2 {
+    margin-bottom: 30px;
+}
+
 .page-container h1 {
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
 }
 
-.pos-relative {
-    position: relative;
-    z-index: 1;
+.page-container h2 {
+  text-align: center;
+  color: white;
+}
+
+.concept-art-container {
+    margin-top: 40px;
+}
+
+.concept-art-container h2 {
+    text-align: left;
+    margin-top: 0;
+}
+
+.concept-art-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 30px;
 }
